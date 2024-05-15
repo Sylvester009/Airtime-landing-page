@@ -28,10 +28,9 @@
           collaborate across any device
         </p>
         <div class="button-div">
-          <a href="form.html" title="button" class="download-button"
-            >Buy Airtime</a
+            <a href="index.html" title="button" class="download-button"
+            >Return Back</a
           >
-
           <button type="button" title="button" class="ques-button">
             What is it?
           </button>
@@ -55,8 +54,8 @@
           </p>
 
           <div class="button-div">
-            <a href="form.html" title="button" class="download-button"
-            >Buy Airtime</a
+            <a href="index.html" title="button" class="download-button"
+            >Return Back</a
           >
             <button type="button" title="button" class="ques-button">
               What is it?
@@ -78,39 +77,37 @@
       </div>
     </div>
 
-    <main class="main">
-      <section class="img-section">
-        <img
-          src="Meet-Image/image-woman-in-videocall.jpg"
-          alt="woman-in-videocall"
-          class="image-one image-sec"
-        />
-        <img
-          src="Meet-Image/image-women-videochatting.jpg"
-          alt="women-videochatting"
-          class="image-two image-sec"
-        />
-        <img
-          src="Meet-Image/image-men-in-meeting.jpg"
-          alt="men-in-meeting"
-          class="image-three image-sec"
-        />
-        <img
-          src="Meet-Image/image-man-texting.jpg"
-          alt="man-texting"
-          class="image-four image-sec"
-        />
+    <section class="form-section" id="formSection">
+        <h2 class="form-title">Sign Up for Updates</h2>
+        <form>
+          <div class="form-group">
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+              <option value="">Select a country</option>
+              <!-- Populate options dynamically if needed -->
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="number">Phone Number:</label>
+            <input type="tel" id="number" name="number">
+          </div>
+          <div class="form-group">
+            <label for="provider">Service Provider:</label>
+            <select id="provider" name="provider">
+              <option value="">Select provider</option>
+              <option>MTN NG</option>
+              <option>GLO</option>
+              <option>Airtel</option>
+              <option>9Mobile</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount">
+          </div>
+          <button type="submit">Purchase</button>
+        </form>
       </section>
-      <section class="about">
-        <p class="quote">Built for modern use</p>
-        <h2 class="about-title">Smarter meetings, all in one place</h2>
-        <p class="about-text">
-          Send messages, share files, show your screen and record your meetings
-          - all in one workspace. Control who can join with invite - only team
-          access, data encryption, and data export.
-        </p>
-      </section>
-    </main>
 
     <div class="divider divider-2">
       <div class="line"></div>
