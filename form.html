@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meet Landing Page</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header class="header mobile-header">
@@ -28,7 +29,7 @@
           collaborate across any device
         </p>
         <div class="button-div">
-            <a href="index.html" title="button" class="download-button"
+          <a href="index.html" title="button" class="download-button"
             >Return Back</a
           >
           <button type="button" title="button" class="ques-button">
@@ -55,8 +56,8 @@
 
           <div class="button-div">
             <a href="index.html" title="button" class="download-button"
-            >Return Back</a
-          >
+              >Return Back</a
+            >
             <button type="button" title="button" class="ques-button">
               What is it?
             </button>
@@ -78,36 +79,35 @@
     </div>
 
     <section class="form-section" id="formSection">
-        <h2 class="form-title">Sign Up for Updates</h2>
-        <form>
-          <div class="form-group">
-            <label for="country">Country:</label>
-            <select id="country" name="country">
-              <option value="">Select a country</option>
-              <!-- Populate options dynamically if needed -->
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="number">Phone Number:</label>
-            <input type="tel" id="number" name="number">
-          </div>
-          <div class="form-group">
-            <label for="provider">Service Provider:</label>
-            <select id="provider" name="provider">
-              <option value="">Select provider</option>
-              <option>MTN NG</option>
-              <option>GLO</option>
-              <option>Airtel</option>
-              <option>9Mobile</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="amount">Amount:</label>
-            <input type="number" id="amount" name="amount">
-          </div>
-          <button type="submit">Purchase</button>
-        </form>
-      </section>
+      <h2 class="form-title">Sign Up for Updates</h2>
+      <form>
+        <div class="form-group">
+          <label for="country">Country:</label>
+          <select id="countrySelect" name="country" title="country">
+            <option value="">Select a country</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="number">Phone Number:</label>
+          <input type="tel" id="number" name="number" disabled/>
+        </div>
+        <div class="form-group">
+          <label for="provider">Service Provider:</label>
+          <select id="provider" name="provider">
+            <option value="">Select provider</option>
+            <option>MTN NG</option>
+            <option>GLO</option>
+            <option>Airtel</option>
+            <option>9Mobile</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="amount">Amount:</label>
+          <input type="number" id="amount" name="amount" />
+        </div>
+        <button type="submit">Purchase</button>
+      </form>
+    </section>
 
     <div class="divider divider-2">
       <div class="line"></div>
